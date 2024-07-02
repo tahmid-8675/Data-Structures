@@ -24,8 +24,6 @@ main(){
 
     for(int i=1;i<=n;i++){
 
-           // if(i-1==-1) for 0 based index
-           // continue;
 
         presum[i]=presum[i-1]+a[i];
     }
